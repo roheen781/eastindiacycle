@@ -1,0 +1,106 @@
+title = "East India Cycle Tours"
+baseURL = ""
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Our Tours"
+    url = "/work"
+  [[menu.header]]
+    weight = 6
+    name = ""
+    url = ""
+  [[menu.header]]
+    weight = 7
+    name = ""
+    url = ""
+  [[menu.header]]
+    weight = 5
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "/"
+  [[menu.footer]]
+    weight = 3
+    name = "Contact us"
+    url = "/contact"
+  [[menu.footer]]
+    weight = 2
+    name = "Our Tours"
+    url = "/work"
+  [[menu.footer]]
+    weight = 4
+    name = ""
+    url = ""
+  [[menu.footer]]
+    weight = 5
+    name = ""
+    url = ""
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  date_format = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "East India Cycle Tours"
+    subtitle = "The Orient starts here!"
+
+  [params.data.state]
+    enable = true
+    
+
+  [params.wrapper]
+    enable = true
+    title = "Where is North East India??"
+    italic = "This little known corner of the Indian Subcontinent sharing international borders with Bhutan, Tibet, China, Myanmar and Bangladesh is connected to mainland India by a small sliver of land in the state of West Bengal popularly known as the `Chickens neck`. Consisting of Eight states this region is formed like a gigantic basin with the Brahmaputra and Barak valleys taking center stage. The northern border with Tibet and China is barricaded by the giant east Himalayan landmass, in the east the densely forested Patkai bum and Naga Patkai ranges bordering Burma take over running south all the way to Chaifil Tlang and Uiphum Tlang ranges in Mizoram (which further runs off east to the Chin hills and Arakan Yoma of Burma).In the south the Jaintia, Khasi and Garo Hills of Meghalaya bordering the rich plains of Bangladesh completes the formation. This region is incidentally the closest that the Himalayan mountain range gets to the coast. This geographical factor added to the fact that this region also receives some of the highest rainfall in the planet has resulted in the one of the greatest diversity in flora and fauna and hence also a diverse mix of people."
+    paragraph = " "
+
+   [params.feature]
+    enable = true
+    title = "Your best bet in Eastern India"
+    content = "A close co-operation of trusted people involved in adventure and cycling tours in particular. With individual experience spanning over a decade we have come together to offer cycling tours in the far east of India. Authenticity and ethics is foremost in our mind you will notice our tours to be very interactive and local in prospective. Each member offers his/her expertise of local indepth and knowledge. <br/><br/> Our region being less touched by tourism has created a space for unique experiences, however it requires maturity and a sense of responsibility while travelling here. Infrastructure is not what you can expect in other corners of the country, hence you cant call our tours easy by any means. <br/><br/> If you are looking at an active, authentic and interactive cycling experience where luxury is not a priority, we have the tour for you."
+   # [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = true
+    title = "“A bicycle ride around the North East begins with a single pedal stroke.”"
+    paragraph = "- Scott Stoll"
+
+  [params.contact]
+    enable = true
+    title = "Get in touch."
+    subtitle = ""
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "222, Deori Gaon, PO. Ketekibari , Tezpur - 784001 Assam"
+      email = "Email: roheenb@gmail.com"
+      phone = "Phone: +91 994 041 6065"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
+
+[taxonomies]
+  
+  categories = "categories"
+  tag = "tags"
