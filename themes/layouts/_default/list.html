@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+
+	{{ partial "global-header.html" .Site.Params.category }}
+
+
+
+
+	<main>
+		{{ range .Data.Pages }}
+		<div class="post-area">
+			<a href="{{ .Permalink }}" class="bold">{{ .Title }}</a>
+			<br>
+			<!--<a href="{{"/state/"}}{{ .Params.state }}"  >{{ .Params.state }}</a> &nbsp;
+			<a href="{{"/tags/"}}{{ .Params.tags }}"  >{{ .Params.tags }}</a>  &nbsp;-->
+			<br>
+			<b>Airport: </b> {{ .Params.airportin }}  &nbsp; &nbsp;
+			<b>Season: </b>{{ .Params.season }} &nbsp; &nbsp;
+			<b> Total Days:  </b>{{ .Params.days }} &nbsp; &nbsp;
+			<b> Level:  </b>{{ .Params.level }} &nbsp; &nbsp;
+			<br><br>
+			<img src={{.Params.image}} alt="{{ .Site.Title }} Logo" style= "float: left; margin: 4px 10px 0px 0px; border: 3px solid #000000;">
+			<p> {{ .Params.description }} </p>
+			<p> {{ .Summary }} </p>
+			<br><br><br><br><br><br><br><br>
+			<hr>
+			</a>
+
+		</div>
+		{{ end }}
+	</main>
+
+	{{ partial "footer.html" . }}
+
+</body>
+</html>

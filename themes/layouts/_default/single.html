@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+	</head>
+<body>
+
+	{{ partial "header.html" . }}
+	
+	<div class="post">
+	  <!-- Wrapper Start -->
+	  <section id="intro" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+	        <div>
+	          <div class="block">
+							<h1>{{ .Params.title }}</h1>
+							 <!-- <div class="post-info-wrapper">-->		
+              <div class="itin">
+							<div class="itinover">	
+							<h4> Overview</h4>
+							<h6> Level: {{ .Params.level }}</h6>
+							<h6> Best Time: {{ .Params.season }}</h6>
+							<h6> Total days: {{ .Params.days }}</h6>
+							<h6> Cycling Hours: {{ .Params.cycling }}</h6>
+							<h6> Terrain: {{ .Params.terrain }}</h6>
+							<h6> Airport In: {{ .Params.airportin }}</h6>
+							<h6> Airport In: {{ .Params.airportin }}</h6>
+							</div>
+							<div class="itinhigh">	
+							<h4> Highlights</h4>
+							<h6> {{ .Params.high1 }}</h6>
+							<h6> {{ .Params.high2 }}</h6>
+							<h6> {{ .Params.high3 }}</h6>
+							<h6> {{ .Params.high4 }}</h6>
+							<h6> {{ .Params.high5 }}</h6>
+							<h6> {{ .Params.high6 }}</h6>
+							<h6> {{ .Params.high7 }}</h6>
+							<h6> {{ .Params.high8 }}</h6>
+							</div> </div> <br><hr>
+							<div class="itinimage"><img src="//localhost:1313/img/portfolio/work7.jpg" alt="image"
+							style="float: left; margin-right: 10px" /></div>
+							<p class="post-info-wrapper"> {{ .Params.intro }}</p>
+							<p>{{ .Content }}</p>	
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>
