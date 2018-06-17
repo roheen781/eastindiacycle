@@ -1,0 +1,67 @@
+enable: true
+title: Our Tours
+subtitle: Below are some of our cycling holidays in the Northeast we are happy to customize.
+
+portfolio:
+  - category: Assam
+    url: "/assam/"
+    image: "/img/portfolio/work11.jpg"
+    name: Assam
+    description: >
+      Cycling in Assam
+      
+  - category: Arunachal
+    url: "/arunachal/"
+    image: "/img/portfolio/work8.jpg"
+    name: Arunachal Pradesh
+    description: >
+      Dawn lit Mountains
+  - category: Meghalaya
+    url: "/meghalaya/"
+    image: "/img/portfolio/work14.jpg"
+    name: Meghalaya
+    description: >
+      The Abode of Clouds
+  - category: Sikkim
+    url: "/sikkim/"
+    image: "/img/portfolio/work13.jpg"
+    name: Sikkim
+    description: >
+      Small But Beautiful
+  - category: Bhutan
+    url: "/bhutan/"
+    image: "/img/portfolio/work10.jpg"
+    name: Bhutan
+    description: >
+      Land of the Thunder Dragon
+  - category: Nagaland
+    url: "/nagaland/"
+    image: "/img/portfolio/work12.jpg"
+    name: Nagaland
+    description: >
+      Land of Festivals    
+clients:
+  - image: "/img/clients/clients-logo1.png"
+    url: "#"
+  - image: "/img/clients/clients-logo2.png"
+    url: "#"
+  - image: "/img/clients/clients-logo3.png"
+    url: "#"
+  - image: "/img/clients/clients-logo4.png"
+    url: "#"
+  - image: "/img/clients/clients-logo5.png"
+    url: "#"
+  - image: "/img/clients/clients-logo4.png"
+    url: "#"
+  - image: "/img/clients/clients-logo3.png"
+    url: "#"
+  - image: "/img/clients/clients-logo2.png"
+    url: "#"
+  - image: "/img/clients/clients-logo1.png"
+    url: "#"
+  - image: "/img/clients/clients-logo2.png"
+    url: "#"
+  - image: "/img/clients/clients-logo3.png"
+    url: "#"
+  - image: "/img/clients/clients-logo4.png"
+    url: "#"
